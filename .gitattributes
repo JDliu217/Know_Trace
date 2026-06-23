@@ -1,0 +1,17 @@
+# 统一按 LF 入库，工作区按平台自动转换
+* text=auto
+
+# 脚本保持原样
+*.sh  text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做转换
+*.ttf  binary
+*.ttc  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.jar  binary
+*.zip  binary
