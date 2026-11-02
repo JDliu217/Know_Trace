@@ -15,3 +15,6 @@
 *.gif  binary
 *.jar  binary
 *.zip  binary
+
+# SQL 脚本按文档处理，不计入语言统计
+sql/** linguist-documentation
